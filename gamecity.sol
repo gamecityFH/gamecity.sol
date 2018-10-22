@@ -79,7 +79,7 @@ contract GameCity is ERC20 {
     
     uint256 public totalSupply = 20000000000e8;
     uint256 public totalDistributed = 0;    
-    uint256 public constant MIN_CONTRIBUTION = 1 ether / 100; // 0.001 Ether
+    uint256 public constant MIN_CONTRIBUTION = 1 ether / 100; // 0.01 Ether
     uint256 public tokensPerEth = 15000000e8;
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
